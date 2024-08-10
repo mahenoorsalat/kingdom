@@ -93,10 +93,10 @@ h1{
     transform: translate(-50% , -50%) scale(1);
 }
 @media only screen and (min-width: 421px) and (max-width: 1023px){
-    body,html{
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
+    body, html {
+        height: auto;
+        width: auto;
+        overflow-x: hidden; 
     }
     .card-container{
         display: flex;
@@ -108,10 +108,10 @@ h1{
 }
 
 @media only screen and (max-width: 420px) {
-    body,html{
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
+    body, html {
+        height: auto;
+        width: auto;
+        overflow-x: hidden; 
     }
     .card-container{
         display: flex;
